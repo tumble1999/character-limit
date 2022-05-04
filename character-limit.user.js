@@ -52,11 +52,15 @@
 	function addSetting(i) {
 		let format = conditionalFormatting[i],
 			group = settingsContainer.createInputRow(i),
-			percent = group.createInput("Percent", "number", value => {
-				format.min = value / 100;
+			percent = group.createInput({
+				name: "Percent", type: "number", onInput: value => {
+					format.min = value / 100;
+				}
 			}),
-			color = group.createInput("Percent", "text", value => {
-				format.color = value;
+			color = group.createInput({
+				name: "Percent", type: "text", onInput: value => {
+					format.color = value;
+				}
 			}),
 			delBtn = document.createElement("button");
 		percent.value = format.min * 100;
