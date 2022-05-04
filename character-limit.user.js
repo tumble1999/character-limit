@@ -3,7 +3,7 @@
 // @namespace    https://bcmc.ga/authors/tumblegamer/
 // @version      0.1.0.1
 // @icon         https://github.com/tumble1999/critterguration/raw/master/icon.png
-// @author       TumbleGamer
+// @author       Tumble
 // @require      https://github.com/tumble1999/mod-utils/raw/master/mod-utils.js
 // @require      https://github.com/tumble1999/modial/raw/master/modial.js
 // @require      https://github.com/tumble1999/critterguration/raw/master/critterguration.user.js
